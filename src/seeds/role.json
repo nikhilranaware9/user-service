@@ -1,0 +1,27 @@
+{
+    "roles": [
+      {
+        "name": "admin",
+        "description": "Administrator with full access to manage users and system settings.",
+        "permissions": [
+          "CREATE_ACCOUNT",
+          "VIEW_ACCOUNT",
+          "DELETE_ACCOUNT",
+          "TRANSFER_FUNDS",
+          "VIEW_TRANSACTIONS",
+          "MANAGE_USERS"
+        ]
+      },
+      {
+        "name": "customer",
+        "description": "Bank customer with limited access to their own accounts.",
+        "permissions": [
+          "CREATE_ACCOUNT",
+          "VIEW_ACCOUNT",
+          "TRANSFER_FUNDS",
+          "VIEW_TRANSACTIONS"
+        ]
+      }
+    ]
+  }
+  
